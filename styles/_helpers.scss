@@ -1,0 +1,22 @@
+.bd-grid {
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
+}
+
+.button {
+  display: inline-block;
+  background-color: $first-color;
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: $font-semi ;
+  border-radius: .5rem;
+
+  &:hover {
+    box-shadow: 0 10px 36px rgba($color: #000, $alpha: .15);
+  }
+}

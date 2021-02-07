@@ -1,0 +1,27 @@
+/* class */
+.section-title {
+  position: relative;
+  margin-top: var(--mb-2);
+  margin-bottom: var(--mb-4);
+  font-size: var(--h2-font-size);
+  color: var(--first-color);
+  text-align: center;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  right: 0;
+
+  width: 64px;
+  height: .18rem;
+  margin: auto;
+  background: var(--first-color);
+}
+
+.session {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}

@@ -1,0 +1,17 @@
+.about__container {
+  row-gap: 2rem;
+  text-align: center;
+}
+
+.about__subtitle {
+  margin-bottom: $mb-2;
+}
+
+.about__img{
+  margin: 0 auto;
+}
+
+.about__img  img {
+  width: 200px;
+  border-radius: .5rem;
+}

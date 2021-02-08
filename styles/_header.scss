@@ -9,7 +9,6 @@
   box-shadow: 0 1px 4px rgba(146, 161, 176, .15);
 }
 
-/* nav bar */
 .nav {
   height: $font-semi;
   display: flex;
@@ -68,7 +67,6 @@
   cursor: pointer;
 }
 
-/* active menu  */
 .active::after {
   content: '';
   position: absolute;
@@ -80,7 +78,6 @@
   background: $first-color;
 }
 
-/* show menu */
 .show {
   right: 0;
 }

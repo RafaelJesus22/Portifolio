@@ -1,0 +1,20 @@
+.contact__input {
+  width: 100%;
+  font-size: $normal-font-size;
+  font-weight: $font-semi;
+  padding: 1rem;
+  border-radius: .5rem;
+  border: 1.5px solid $second-color;
+  outline: none;
+  margin-bottom: $mb-4;
+}
+
+.contact__button {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: $normal-font-size;
+  cursor: pointer;
+  margin: 0 0 2rem auto;
+
+}

@@ -7,6 +7,7 @@
   z-index: $z-fixed;
   background: #fff;
   box-shadow: 0 1px 4px rgba(146, 161, 176, .15);
+  height: $header-height;
 }
 
 .nav {
@@ -57,8 +58,8 @@
   }
 }
 
-.nav-logo {
-  color: $second-color;
+.nav__logo {
+  color: $first-color;
 }
 
 .nav-toggle {

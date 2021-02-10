@@ -1,16 +1,12 @@
 .home {
-  height: calc(100vh -3rem);
+  min-height: 95vh;
   row-gap: 1rem;
-  margin: 0 auto;
 }
-
-// .home__data {
-//   align-self: center;
-// }
 
 .home__title {
   font-size: $big-font-size;
-  margin-bottom: $mb-5;
+  margin-bottom:  $mb-5;
+  margin-top: 4rem;
 }
 
 .home__title-color {
@@ -39,6 +35,10 @@
 .home__img {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 2rem;
   width: 295px;
+}
+
+.home__img img {
+  width: 100%;
 }

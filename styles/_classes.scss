@@ -1,4 +1,3 @@
-/* class */
 .section-title {
   position: relative;
   margin-top: $mb-2;
@@ -29,4 +28,39 @@
 .icon {
   width: 2rem;
   margin-right: $mb-2;
+}
+
+.bd-grid {
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: $mb-2;
+  margin-right: $mb-2;
+}
+
+.button {
+  display: inline-block;
+  background-color: $first-color;
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: $font-semi ;
+  border-radius: .5rem;
+
+  &:hover {
+    box-shadow: 0 10px 36px rgba($color: #000, $alpha: .15);
+  }
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.d-fx {
+  display: flex;
+}
+
+.jc-sb {
+  justify-content: space-between;
 }

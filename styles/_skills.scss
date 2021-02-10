@@ -32,12 +32,12 @@
 .skills__bar {
   position: absolute;
   content: '';
-  left: 0;
+  left: 10%;
   bottom: 0;
   background: $first-color;
   border-radius: .5rem;
   z-index: 30;
-  width: 85%;
+  width: 80%;
   height: .4rem;
 }
 
